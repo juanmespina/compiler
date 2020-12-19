@@ -1,0 +1,146 @@
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 2 ;
+var t as integer := 30 ;
+var x as integer := 5 ;
+var c as integer := 0 ;
+inimat c := a + b + t + x enmat ;
+fin
+
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 2 ;
+var t as integer := 30 ;
+var x as integer := 5 ;
+var c as integer := 0 ;
+inimat c := ( a + b ) / ( t + x ) enmat
+fin
+
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 2 ;
+var t as integer := 30 ;
+var x as integer := 5 ;
+var c as integer := 0 ;
+var m as integer := 0 ;
+inimat c := a + b enmat ;
+inimat m := t + x enmat ;
+fin
+
+
+programa juan
+inicio
+/* hol */ var a as integer := 10 ;
+var b as integer := 2 ;
+var t as integer := 30 ;
+var x as integer := 5 ;
+var c as integer := 0 ;
+var m as integer := 0 ;
+
+inimat c := a + b enmat ;
+inimat m := t + x enmat ;
+fin
+
+programa juan
+inicio
+var a as integer := 4 ;
+var b as integer := 2 ;
+var t as integer := 30 ;
+var x as integer := 5 ;
+var c as integer := 0 ;
+if ( a < b ) then
+inimat c := a + b + t + x enmat ;
+endif
+inimat c := a + b enmat ;
+fin
+
+programa juan
+inicio
+var a as integer := 4 ;
+var b as integer := 2 ;
+var t as integer := 30 ;
+var x as integer := 5 ;
+var c as integer := 0 ;
+if ( a < b ) then
+inimat c := a + b enmat ;
+else
+inimat c := t + x enmat ;
+endif
+
+fin
+
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 2 ;
+var c as integer := 0 ;
+for ( t := 0 ; t < 5 ; t++ )
+inimat c := a + b enmat ;
+endfor
+fin
+
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 0 ;
+var c as integer := 0 ;
+for ( t := 0 ; t < 5 ; t++ )
+inimat c := 1 + c enmat ;
+endfor
+fin
+
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 2 ;
+var c as integer := 0 ;
+for ( t := 0 ; t < 5 ; t++ )
+inimat c := c + a enmat ;
+endfor
+inimat c := c + b enmat ;
+fin
+
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 2 ;
+var c as integer := 0 ;
+while ( c < 100 )
+inimat c := c + 1 enmat ;
+endwhile
+fin
+
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 2 ;
+var c as integer := 0 ;
+do
+inimat c := c + 1 enmat ;
+enddo ( c < 100 )
+fin
+
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 2 ;
+var c as integer := 0 ;
+while ( c < 100 )
+inimat c := c + 1 enmat ;
+endwhile
+inimat c := c + a enmat ;
+fin
+
+programa juan
+inicio
+var a as integer := 10 ;
+var b as integer := 2 ;
+var c as integer := 0 ;
+do
+inimat c := c + 1 enmat ;
+enddo ( c < 100 )
+inimat c := c + a enmat ;
+fin

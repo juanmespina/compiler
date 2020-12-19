@@ -1,0 +1,150 @@
+﻿html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    /* margin: 0px;
+    padding: 0px;
+    height: 110%;
+    width: 100%; */
+    background-color: rgb(47, 53, 66);
+    font-family: 'Consolas';
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    height: 5%;
+}
+
+.h-10 {
+    height: 10% !important;
+}
+
+.h-55 {
+    height: 5% !important;
+}
+
+.h-90 {
+    height: 90% !important;
+}
+
+.h-50 {
+    height: 50% !important;
+}
+
+.h-85 {
+    height: 85% !important;
+}
+
+.principal {
+    height: 80%;
+    position: static;
+}
+
+#encabezado {
+    /* width: 100%;
+    height: 10%; */
+    background-color: aqua;
+    color: white;
+    /* text-align: center; */
+}
+
+
+/*mitad izquierda pantalla*/
+
+#ctdrTxtIngreso {
+    /* height: 100%;
+    width: 100%; */
+    border-radius: 25px;
+    border: 2px solid rgb(26, 34, 61);
+    background-color: rgb(112, 161, 255);
+}
+
+#lblEntrada {
+    color: rgb(47, 53, 66);
+    font-size: large;
+}
+
+#txtIngreso {
+    color: rgb(47, 53, 66);
+    background-color: rgb(241, 242, 246);
+}
+
+#txtsalida {
+    color: rgb(47, 53, 66);
+    background-color: rgb(116, 125, 140);
+}
+
+#separador {
+    /* padding-top: 1px; */
+    border: 2px solid;
+    background-color: black;
+}
+
+.btnCompilador {
+    border: solid;
+    background-color: rgb(241, 242, 246);
+    color: rgb(47, 53, 66);
+    border-radius: 5px;
+}
+
+
+/*fin mitad izquierda*/
+
+
+/*mitad derecha*/
+
+
+/* #mitadDer {
+    height: 100%;
+    width: 40%;
+    float: right;
+} */
+
+
+/* #tablaPalabra {
+    visibility: hidden;
+    margin: 1% 5% 1% 5%;
+    width: 80%;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+} */
+
+
+/* #tablaASCII {
+    visibility: hidden;
+    margin: 1% 5% 1% 5%;
+    width: 80%;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+}
+ */
+
+
+/* .linkTabla {
+    padding: 2% 0 2% 30%;
+    float: left;
+} */
+
+.linkTabla p {
+    color: whitesmoke;
+}
+
+
+/* fin mitad derecha*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    /*width: 100%;
+    text-align: center; */
+    color: rgb(47, 53, 66);
+    background-color: rgb(241, 242, 246);
+}
